@@ -27,11 +27,13 @@ public class lineComparision {
         double Length_of_Line2 = Math.sqrt(squareOfA + squareOfB);
         System.out.println(" Length of Line2: " + Length_of_Line2);
 
-        // Equality Comparison
+        // Comparison of lines
         if (Length_of_Line1 == Length_of_Line2)
             System.out.println(" Length is Equal ");
+        else if (Length_of_Line1 > Length_of_Line2)
+            System.out.println(" Length of Line1 is Greater ");
         else
-            System.out.println(" Length is not Equal ");
+            System.out.println(" Length of Line2 is Greater ");
 
 
     }
